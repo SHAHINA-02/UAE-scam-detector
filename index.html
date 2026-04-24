@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIELD UAE | UAE Scam Detector</title>
+    <meta name="description" content="AI-powered fraud detection for UAE residents. Protect yourself from SMS, WhatsApp, and email scams.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scanline"></div>
+    <div class="grid-overlay"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="shield-icon">🛡️</span> SHIELD <span class="cyan-text">UAE</span>
+            </div>
+            <div class="version-tag">
+                THREAT DETECTION SYSTEM <span class="v-tag">v1.0</span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <div class="cyber-tag">[ CYBERSECURITY TOOL ]</div>
+            <h1 class="main-title">UAE SCAM DETECTOR<span class="cursor">_</span></h1>
+            <p class="subtext">AI-powered fraud detection for UAE residents</p>
+            <div class="live-counter">
+                <span class="counter-label">SCAMS DETECTED TODAY:</span>
+                <span id="scamCounter" class="counter-value">1,247</span>
+            </div>
+        </section>
+
+        <div class="status-bar">
+            <div class="status-item"><span class="dot green"></span> SYSTEM ONLINE</div>
+            <div class="status-item"><span class="dot blue"></span> AI ACTIVE</div>
+            <div class="status-item"><span class="dot yellow"></span> DATABASE UPDATED</div>
+        </div>
+
+        <section class="detection-panel">
+            <div class="panel-card main-card">
+                <div class="card-glow"></div>
+                <label for="messageInput" class="label-code">// PASTE SUSPICIOUS MESSAGE</label>
+                <div class="textarea-wrapper">
+                    <textarea id="messageInput" placeholder="Paste SMS, WhatsApp, email message..." spellcheck="false"></textarea>
+                    <div class="terminal-focus"></div>
+                </div>
+                
+                <div class="panel-controls">
+                    <div class="lang-selector">
+                        <button class="lang-btn active" data-lang="EN">EN</button>
+                        <button class="lang-btn" data-lang="AR">AR</button>
+                        <button class="lang-btn" data-lang="HI">HI</button>
+                        <button class="lang-btn" data-lang="UR">UR</button>
+                        <button class="lang-btn" data-lang="TL">TL</button>
+                        <button class="lang-btn" data-lang="ML">ML</button>
+                    </div>
+                    <button id="analyzeBtn" class="analyze-btn">
+                        ANALYZE THREAT <span class="search-icon">🔍</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="scanningOverlay" class="scanning-overlay hidden">
+            <div class="scanner-content">
+                <div class="matrix-bg" id="matrixBg"></div>
+                <div class="loading-bar-container">
+                    <div class="loading-label">SCANNING...</div>
+                    <div class="loading-bar">
+                        <div class="loading-progress"></div>
+                    </div>
+                </div>
+                <div class="scanning-text">ANALYZING HEURISTICS & PATTERNS</div>
+            </div>
+        </section>
+
+        <section id="resultPanel" class="result-panel hidden">
+            <!-- Result Content injected via JS -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">SHIELD UAE | Powered by Claude AI</div>
+            <div class="footer-right">Not affiliated with UAE government</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
