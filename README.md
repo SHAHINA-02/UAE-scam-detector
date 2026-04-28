@@ -8,13 +8,6 @@
 
 An AI-powered web application that detects fraudulent job offers, phishing messages, and suspicious listings targeting UAE residents.
 
-**Live Demo:** uae-scam-detector.vercel.app)
-
-> Add a screenshot here — drag and drop an image into this file on GitHub.
-> Example: ![App Screenshot](./screenshot.png)
-
----
-
 ## ABOUT
 
 Scam targeting of UAE expats and job seekers is a documented, growing problem. This tool allows anyone to paste suspicious text and receive an instant fraud risk score with a structured breakdown — no account required, no data stored.
