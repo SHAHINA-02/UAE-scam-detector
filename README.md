@@ -12,7 +12,7 @@ An AI-powered web application that detects fraudulent job offers, phishing messa
 
 Scam targeting of UAE expats and job seekers is a documented, growing problem. This tool allows anyone to paste suspicious text and receive an instant fraud risk score with a structured breakdown — no account required, no data stored.
 
----
+----
 
 ## HOW IT WORKS
 
